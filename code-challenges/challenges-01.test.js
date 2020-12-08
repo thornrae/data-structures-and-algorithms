@@ -37,11 +37,10 @@ const addValues = (arr, value) => {
 };
 
 const addNumbers = (num, arr, times, callback) => {
- const number = callback(num);
- 
- 
-
- return arr 
+  for (var i = 0; i<times; i++){
+    callback(arr,num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
