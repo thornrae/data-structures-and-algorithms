@@ -133,6 +133,7 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   arr.forEach( object => {
+    //this has separated each character object, now to access the children part??
     Object.values(object).forEach( value => {
 
     })
