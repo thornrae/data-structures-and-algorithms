@@ -133,16 +133,23 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 //character is a string that needs to be matched
 const hasChildrenValues = (arr, character) => {
+  let kids;
   arr.forEach( object => {
     //this has separated each character object, now to access the children part??
-    Object.values(object).forEach( value => {
-     
-    });
+    if (Object.values(object)[0] === character && Object.values(object)[2].length !== 0) {
+      kids = true;
+    } else if (Object.values(object)[0] === character && Object.values(object)[2].length === 0) {
+      kids = false;
+    }
   });
-
+  return kids;
 };
 
-['name: whatever', 'next thing', 'the next', 'the next', ['children names']]
+// name: 'Jon S.',
+// spouse: null,
+// children: [],
+// house: 'Snow'
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
