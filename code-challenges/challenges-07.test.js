@@ -33,9 +33,15 @@ You may choose to complete this challenge using a for loop, for...in syntax, or 
 For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and 2 ^ 3 = 8.
 ------------------------------------------------------------------------------------------------ */
 
+
+
 const forLoopTwoToThe = (arr) => {
-  let raised = arr.map(number => Math.pow(2, number));
-  return raised;
+  var raisedArr= [];
+  for (var i=0; i<arr.length; i++){
+    var raised = Math.pow(2, arr[i]);
+    raisedArr.push(raised);
+  }
+  return raisedArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,11 +52,10 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   let raisedArr = [];
-  let raised = arr.forEach(number => Math.pow(2, number));
-  let parseRaised = parseInt(raised);
-  raisedArr.push(parseRaised);
-
-  return parseInt(raisedArr);
+  arr.forEach( value => {
+    raisedArr.push(Math.pow(2, value));
+  });
+  return raisedArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
