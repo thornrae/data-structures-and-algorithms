@@ -22,7 +22,7 @@ const createServer = () => {
 
 
 function sayHello(request, response){
-  response.status(404).json('Hello from the back-end');
+  response.status(200).send('Hello from the back-end');
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -50,12 +50,15 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 
 const filterStringsWithVowels = (arr) => {
-  let vowelArr = [];
-  let vowels = /\[a][e][i][o][u]/g;
-  let vowelsTest = vowels.test(arr);
-  vowelArr.push(vowelsTest);
-  return vowelArr;
+
+  return arr.filter(word => {
+    let vowelsReg = /([aeiou])/g;
+    let vowelsTest =  word.match(vowelsReg);
+    return vowelsTest;
+    //when you return inside filter means the things you are returning is an element in new array that filters is building
+  });
 };
+
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -67,8 +70,21 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
 const notInFirstArray = (forbiddenValues, arr) => {
-  
+  let checkNumber = arr.filter( value => {
+    if (!forbiddenValues.includes(value)){
+      return true;
+    }
+  });
+  return checkNumber;
 };
+
+// return arr.filter( value => {
+//   if(value === forbiddenValues) {
+//     forbiddenValues.pop(value);
+//   }
+// });
+
+//if forbiddenValues.includes(value)
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
