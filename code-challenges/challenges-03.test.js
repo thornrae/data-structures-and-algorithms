@@ -18,7 +18,7 @@ let $ = createSnippetWithJQuery(`
 `);
 
 const changeAllClassNames = () => {
-  blablablahblablah 
+
 };
 
 /* ------------------------------------------------------------------------------------------------
