@@ -13,15 +13,16 @@ Use Cheerio with jQuery syntax to fix the typo
 
 const $ = createSnippetWithJQuery(`
 <ul id="fruits">
-  <li class="apple">Apple</li>
-  <li class="orange">Orange</li>
-  <li class="pear">Perr</li>
+ <li class="apple">Apple</li>
+ <li class="orange">Orange</li>
+ <li class="pear">Perr</li>
 </ul>
 `);
 
 const fixTheTypo = () => {
   $('.pear').text('Pear');
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -53,7 +54,6 @@ const findHappiness = (arr) => {
   });
   return includesChar;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
