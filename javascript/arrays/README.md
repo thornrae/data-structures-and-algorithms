@@ -1,5 +1,5 @@
 # Reverse an Array
-Code Challenge 01: Reversing an array
+Code Challenge 01
 
 ## Challenge
 Given an array with values of some length, reverse the array in place.  Do not return a new array, altar the existing.  
@@ -13,3 +13,4 @@ Given an array with values of some length, reverse the array in place.  Do not r
 
 ## Solution
 ![whiteboard](Whiteboard.png)
+
