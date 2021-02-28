@@ -1,5 +1,5 @@
 # Array Binary Search
-Code Challenge 3
+Code Challenge 03
 
 ## Challenge
 Write a function that takes in a sorted array and a search key.  Using a binary search algorithm, return the index of the search key.
