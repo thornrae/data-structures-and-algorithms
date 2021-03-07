@@ -21,12 +21,22 @@ describe('**** LINKED LIST ****', () => {
     expect(list.head.next).toBeNull;
   })
 
-  it('should return a boolean', () => {
+  it('should insert a new node at head', () => {
     let list = new LinkedList();
-    let test = 'test';
+    let test = 'new';
+    list.insert(test);
 
-    list.includes(test);
-
-    expect(list.head.value).toBeTruthy;
+    expect(list.head.value).toEqual('new');
   })
+  
+  // it('should return a boolean', () => {
+  //   let list = new LinkedList();
+  //   let test = 'test';
+
+  //   list.includes(test);
+
+  //   expect(list.head.value).toBeTruthy;
+  // })
+
+  
 });
