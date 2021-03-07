@@ -47,14 +47,24 @@ class LinkedList {
   }
 
   toString(){
+    let current = this.head;
     
-    let string = ""
-    let str = this.head.value
-    string.push(str);
+    while(current){
+      if(current.value){
+        let currentValue = current.value;
+        let string1 = `${currentValue} ->`
+        // console.log('string1....', string1);
+      }
+      current = current.next;
+      return string1;
 
-    return string;
 
-    
+      // if(!current.value){
+      //   let listEnd = current.value;
+      //   let string2 = `${listEnd}`
+      //   console.log('string2....', string2);
+      // }
+    }
 
 
   }
