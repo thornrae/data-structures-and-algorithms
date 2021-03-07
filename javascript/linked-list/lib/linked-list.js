@@ -32,15 +32,38 @@ class LinkedList {
       let oldHead = this.head;
       this.head = node;
       this.head.next = oldHead;
-      // let oldHead = this.head;
-      // this.head.value = node.value;
-      // this.head.next = node.next;
+    }
+  }
+
+  includes(value) {
+    let current = this.head;
+    while(current){
+      if(current.value === value){
+        return true;
+      } 
+      current = current.next
+    }
+    return false;
+  }
+
+  toString(){
+    
+    let string = ""
+    let str = this.head.value
+    string.push(str);
+
+    return string;
+
+    
+
 
   }
 }
-}
 
 module.exports = LinkedList;
+
+
+
 
 
 

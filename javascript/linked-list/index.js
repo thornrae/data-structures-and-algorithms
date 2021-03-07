@@ -13,5 +13,9 @@ linkedList.append('2')
 linkedList.insert('500');
 linkedList.insert('a mili');
 
+// let check = linkedList.includes('78')
+// console.log(check);
+
+linkedList.toString();
 
 console.log('linkedlist....', linkedList);
