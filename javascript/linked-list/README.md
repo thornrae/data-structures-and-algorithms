@@ -15,3 +15,20 @@ Define a method called toString: returns a string that lists linked list values 
 
 ## Solution
 ![whiteboard](linkedlistswhiteboard.png)
+
+---------------------------------
+
+# LL Insertions
+Create methods that adds a new node to tail of linked list, inserts new node before specified value, inserts new node after specified value
+
+## Challege
+Define methods in LinkedList class:
+- append (value)
+- insertBefore(value, newValue)
+- insertAfter(value, newValue)
+
+## Approach & Efficiency
+- O(n) for all methods
+
+## Solution
+![whiteboard](whiteboard6.png)

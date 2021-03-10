@@ -28,15 +28,15 @@ describe('**** LINKED LIST ****', () => {
 
     expect(list.head.value).toEqual('new');
   })
-  
-  // it('should return a boolean', () => {
-  //   let list = new LinkedList();
-  //   let test = 'test';
 
-  //   list.includes(test);
+  it('should return a boolean', () => {
+    let list = new LinkedList();
+    let test = 'test';
 
-  //   expect(list.head.value).toBeTruthy;
-  // })
+    list.includes(test);
+
+    expect(list.head.value).toHaveReturned('true');
+  })
 
   
 });
