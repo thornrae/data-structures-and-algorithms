@@ -32,3 +32,18 @@ Define methods in LinkedList class:
 
 ## Solution
 ![whiteboard](whiteboard6.png)
+-------------------------------------------------------
+# LL NTH FROM END
+Create a method takes in a value and returns the node that is that value-nth from the end. 
+
+## Challenge
+Define method: kthFromEnd(k)
+-find length of list
+-find target node (length - k + 1)
+-return target node
+
+## Approach & Efficiency
+- O(n)
+
+## Solution
+![whiteboard](codechallenge7.png)
