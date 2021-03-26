@@ -45,7 +45,7 @@ class Queue {
   peek(){
 
     if(this.storage.length == 0) {
-      return 'nothing 2 see here folx'
+      return null
     } else {
       return this.front;
     }
@@ -65,11 +65,12 @@ module.exports = Queue;
 
 let queue = new Queue();
 
-// queue.enqueue(50);
-// queue.enqueue(40);
-// queue.enqueue(30);
+queue.enqueue(50);
+queue.enqueue(40);
+queue.enqueue(30);
 
-// queue.dequeue();
+// let dqed = queue.dequeue();
+// console.log('dq', dqed);
 // queue.dequeue();
 // queue.dequeue();
 
@@ -79,4 +80,4 @@ let queue = new Queue();
 // let empty = queue.isEmpty();
 // console.log('empty..', empty);
 
-// console.log('queue', queue);
+console.log('queue', queue);
