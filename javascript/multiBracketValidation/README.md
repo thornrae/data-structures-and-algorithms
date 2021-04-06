@@ -1,4 +1,5 @@
 # Multi Bracket Validation
+Authors: Dar-Ci Calhoun & Taylor Thornton
 
 ## Challenge Description
 Write a function that takes in a string comprised of opening and closing hard, soft and curly brackets.  Our function should evaluate the string and return true if the brackets are balanced and false if the brackets are imbalanced.  
