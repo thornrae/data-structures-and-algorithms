@@ -84,6 +84,7 @@ class BinaryTree {
 }
 
 
+//is this in right place even?????
 class BinarySearchTree extends BinaryTree {
   add(value) {
     node = new Node(value);
