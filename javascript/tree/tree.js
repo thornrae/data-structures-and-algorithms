@@ -84,7 +84,6 @@ class BinaryTree {
 }
 
 
-//is this in right place even?????
 class BinarySearchTree extends BinaryTree {
   add(value) {
     node = new Node(value);
@@ -111,12 +110,16 @@ class BinarySearchTree extends BinaryTree {
   }
 
   contain(value) {
-    let breadth = breadthFirst(value);
-
-    for(let i=0; i < breadth.length; i++) {
-      if(breadth[i] == value) {
-        return true;
-      } else {
+    let current = this.value; {
+      while(current) {
+        if( value === current.value){
+          return true
+        }
+        if (value > current.value) {
+          current = current.right;
+        } else {
+          current = current.left
+        }
         return false;
       }
     }
