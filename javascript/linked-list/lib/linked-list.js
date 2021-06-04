@@ -6,7 +6,7 @@ class LinkedList {
   constructor() {
     this.head = null;
   }
-  
+
   append(value) {
     let node = new Node(value);
 
@@ -52,7 +52,7 @@ class LinkedList {
     while(current){
       if(current.value){
         let currentValue = current.value;
-        let string1 = `${currentValue} ->`
+        let string1 = `${currentValue} ->`;
         // console.log('string1....', string1);
       }
       current = current.next;
