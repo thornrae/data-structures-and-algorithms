@@ -39,7 +39,7 @@ class HashMap {
   get(key) {
     //hash the key
     let hash = this.hash(key);
-    //get the value of this.map[hash]
+    //get the value of this.map[hash] store in varialbe do contains w linkedlist and this value
     console.log(hash);
     //traverse the linked list and find the actual one (bc collisions)
   //   //return what we find
