@@ -40,9 +40,19 @@ class HashMap {
     //hash the key
     let hash = this.hash(key);
     //get the value of this.map[hash]
-    console.log(hash);
+    let index = this.map[hash];
     //traverse the linked list and find the actual one (bc collisions)
-  //   //return what we find
+    let search = index.head.value;
+    let current = index.head;
+    while(current){
+      search = current.value === key ? current.value : search;
+      current = current.next;
+    }
+
+    //return what we find
+    return search;
+    // console.log('return: ', search);
+
   }
 
   //Return a bool is its in HT
@@ -64,5 +74,6 @@ people.set('Jenner', 'Student');
 people.set('Nassir', 'Student');
 people.set('Dawit', 'Student');
 people.set('Rosie', 'Dog');
+people.get('Taylor');
 
 module.exports = HashMap;
