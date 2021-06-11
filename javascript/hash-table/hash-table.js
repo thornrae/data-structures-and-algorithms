@@ -56,24 +56,35 @@ class HashMap {
   }
 
   //Return a bool is its in HT
-  // has(key){
+  has(key){
   //hash the key
-  //get the value of this.map[hash]
-  //traverse the linked list and find the action one (collisions)
+    let hash = this.hash(key);
+    //get the value of this.map[hash]
+    let index = this.map[hash];
+    //traverse the linked list and find the actual one (collisions)
+    let current = index.head;
+    while(current) {
+      if(current.value === key){
+        return true;
+      }
+      current = current.next;
+    }
+    return false;
   //return true or false
-  // }
+  }
 }
 
 let people = new HashMap(16);
 people.set('Anne', 'Student');
 people.set('Taylor', 'Student');
-people.set('Michael', 'Student');
-people.set('Mark the avenger', 'Student');
-people.set('TJ', 'Student');
-people.set('Jenner', 'Student');
-people.set('Nassir', 'Student');
-people.set('Dawit', 'Student');
+// people.set('Michael', 'Student');
+// people.set('Mark the avenger', 'Student');
+// people.set('TJ', 'Student');
+// people.set('Jenner', 'Student');
+// people.set('Nassir', 'Student');
+// people.set('Dawit', 'Student');
 people.set('Rosie', 'Dog');
 people.get('Taylor');
+people.has('Rosie');
 
 module.exports = HashMap;
