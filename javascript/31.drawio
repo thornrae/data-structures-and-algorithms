@@ -1,0 +1,118 @@
+<mxfile>
+    <diagram id="VyDV43jV0eycX9TfHX0A" name="Page-1">
+        <mxGraphModel dx="987" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="DOMAIN:&lt;br&gt;Detemine that within a given string, that string has only unique characters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="10" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="INPUT:&amp;nbsp; &quot;cat&quot;&lt;br&gt;OUTPUT: true&lt;br&gt;&lt;br&gt;INPUT: &quot;boo&quot;&lt;br&gt;OUTPUT: false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="90" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="key: A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="253" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="T" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="253" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="253" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="C =&amp;gt; 2&lt;br&gt;A =&amp;gt; 0&lt;br&gt;T =&amp;gt; 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="190" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="O" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="254.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="254.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="254.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="224.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="224.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="224.25" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="B =&amp;gt; 2&lt;br&gt;O =&amp;gt; 0&lt;br&gt;O =&amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="189" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="223" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="223" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="223" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="290" as="sourcePoint"/>
+                        <mxPoint x="150" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="value: true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="290" as="sourcePoint"/>
+                        <mxPoint x="190" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="value: true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="292" as="sourcePoint"/>
+                        <mxPoint x="220" y="342" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="value: true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="342" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="284.25" as="sourcePoint"/>
+                        <mxPoint x="360" y="334.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="value: true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="334.25" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="284.25" as="sourcePoint"/>
+                        <mxPoint x="300" y="334.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="value: true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="334.25" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="value:&amp;nbsp;&lt;br&gt;false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="410" width="40" height="35.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="294.6" y="360" as="sourcePoint"/>
+                        <mxPoint x="294.6" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="ALGORITHM:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. converting the string into a variable. array.splice('')&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. hash each letter, the letter will represent the key and the hashing of it will point you to a bucket/index&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. at this point, our keys do not values&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4. set values&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5. loop thru the array, if !value, call hash.set(key, true) ELSE,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6. if(value), hash.set(key, false)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="10" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Big O:&lt;br&gt;Time: O(n)&lt;br&gt;Space: O(1)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="10" width="150" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

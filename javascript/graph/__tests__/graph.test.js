@@ -1,0 +1,16 @@
+'use strict';
+
+const graph = require('../__tests__/graph.test.js');
+
+
+
+describe('**** GRAPH ****', () => {
+
+  it('Vertex Created', () => {
+    let myArray = [1,2,3,4,5,6,7,8,9];
+    let myValue = 3;
+    let expected = 2
+    let pleaseWork = binarySearch(myArray, myValue);
+    expect(pleaseWork).toEqual(expected);
+  })
+})
