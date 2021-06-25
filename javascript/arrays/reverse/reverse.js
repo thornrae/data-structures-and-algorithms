@@ -1,7 +1,7 @@
 'use strict';
 
 const reverse = (list) => {
-  let start = 0
+  let start = 0;
   let end = list.length -1;
   while(start <= end) {
     let temp = list[start];
@@ -10,6 +10,6 @@ const reverse = (list) => {
     start ++;
     end--;
   }
-}
+};
 
 module.exports = reverse;
